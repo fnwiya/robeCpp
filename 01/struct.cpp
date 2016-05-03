@@ -16,7 +16,7 @@ struct SStudent
 void Disp(const SStudent &student)
 {
   using namespace std;
-  
+
   cout << "name: " << student.szName << endl
       << "japanese: " << student.nJapanese << endl;
 }
