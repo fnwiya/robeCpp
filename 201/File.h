@@ -21,7 +21,7 @@ class CFile
   bool Open(const char* pszFile, const char* pszFlags);
   void Close();
  private:
-  bool ModifyFlags(const char* pszSource, char* pszDest, int nSize);
+  virtual bool ModifyFlags(const char* pszSource, char* pszDest, int nSize);
  public:
   size_t Read(void* pData, size_t nSize);
   size_t Write(const void* pData, size_t  nSize);

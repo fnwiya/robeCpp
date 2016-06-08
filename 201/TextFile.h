@@ -18,7 +18,7 @@ public:
     bool Open(const char* pszFile, const char* pszFlags);
 
 private:
-    bool ModifyFlags(const char* pszSource, char* pszDest, int nSize);
+    virtual bool ModifyFlags(const char* pszSource, char* pszDest, int nSize);
 
 };
 
